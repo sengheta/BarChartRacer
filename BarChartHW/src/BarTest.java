@@ -13,6 +13,7 @@ class BarTest {
 
 
 	@Test
+	//testing the Value getter for a valid value
 	void testGetValue() {
 		Bar test3 = new Bar ("George", 34523, "names");
 		assertEquals(test3.getValue(),34523);
@@ -21,7 +22,7 @@ class BarTest {
 	//
 	@Test
 
-	//testing category method if Bar was constructed with a valid category
+	//testing the category getter for a valid category
 	void testGetCategory() {
 		Bar test4 = new Bar ("Vienna", 90459348, "cities");
 		assertEquals(test4.getCategory(), "cities");
